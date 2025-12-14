@@ -448,7 +448,7 @@ export default function LandingPage() {
           </button>
           <div className="w-full max-w-5xl aspect-video bg-black rounded-xl overflow-hidden shadow-2xl border border-slate-700 relative">
             <video 
-              src="/demo_video.mp4" 
+              src="/demo_video_small.mp4" 
               className="w-full h-full"
               controls
               autoPlay
