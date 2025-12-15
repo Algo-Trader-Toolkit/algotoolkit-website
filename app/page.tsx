@@ -576,10 +576,8 @@ export default function LandingPage() {
 
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
               <a
-                href="https://algotoolkit.lemonsqueezy.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-gradient-to-r from-emerald-500 to-cyan-500 hover:from-emerald-600 hover:to-cyan-600 px-8 py-4 rounded-xl font-semibold text-lg flex items-center space-x-2 transition transform hover:scale-105"
+                href="https://algotoolkit.lemonsqueezy.com/buy/117b90e2-5006-49da-a3b1-61ec13858c73?embed=1"
+                className="lemonsqueezy-button bg-gradient-to-r from-emerald-500 to-cyan-500 hover:from-emerald-600 hover:to-cyan-600 px-8 py-4 rounded-xl font-semibold text-lg flex items-center space-x-2 transition transform hover:scale-105"
               >
                 <span>Get the Toolkit</span>
                 <ArrowRight className="w-5 h-5" />
