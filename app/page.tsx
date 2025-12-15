@@ -188,7 +188,7 @@ const products = [
     sales: 78,
     rating: 4.8,
     reviews: 42,
-    link: "https://algotoolkit.lemonsqueezy.com/buy/54885c5f-fcb7-4cd3-8287-0692f02dfe1f?embed=1",
+    link: "https://algotoolkitt.gumroad.com/l/Standard", // LEMON SQUEEZY: https://algotoolkit.lemonsqueezy.com/buy/54885c5f-fcb7-4cd3-8287-0692f02dfe1f?embed=1
     features: [
       "12+ Technical Indicators",
       "Fibonacci Retracement Levels",
@@ -207,7 +207,7 @@ const products = [
     sales: 124,
     rating: 4.9,
     reviews: 67,
-    link: "https://algotoolkit.lemonsqueezy.com/buy/893767c5-2359-4cd2-834a-1f3cb1edc441?embed=1",
+    link: "https://algotoolkitt.gumroad.com/l/Pro", // LEMON SQUEEZY: https://algotoolkit.lemonsqueezy.com/buy/893767c5-2359-4cd2-834a-1f3cb1edc441?embed=1
     features: [
       "Everything in Standard",
       "50+ Chart Patterns",
@@ -226,7 +226,7 @@ const products = [
     sales: 97,
     rating: 5.0,
     reviews: 51,
-    link: "https://algotoolkit.lemonsqueezy.com/buy/4f520aef-c625-424d-bc9b-b9be66d4232b?embed=1",
+    link: "https://algotoolkitt.gumroad.com/l/Ultimate", // LEMON SQUEEZY: https://algotoolkit.lemonsqueezy.com/buy/4f520aef-c625-424d-bc9b-b9be66d4232b?embed=1
     features: [
       "Everything in Pro",
       "Elliott Wave Analysis",
@@ -245,7 +245,7 @@ const products = [
     sales: 153,
     rating: 5.0,
     reviews: 89,
-    link: "https://algotoolkit.lemonsqueezy.com/buy/117b90e2-5006-49da-a3b1-61ec13858c73?embed=1",
+    link: "https://algotoolkitt.gumroad.com/l/Enterprise", // LEMON SQUEEZY: https://algotoolkit.lemonsqueezy.com/buy/117b90e2-5006-49da-a3b1-61ec13858c73?embed=1
     features: [
       "✨ EVERYTHING in Ultimate",
       "🤖 Live Trading Engine",
@@ -500,8 +500,9 @@ export default function LandingPage() {
               <a href="#testimonials" className="text-slate-300 hover:text-white transition">Reviews</a>
               <a href="#faq" className="text-slate-300 hover:text-white transition">FAQ</a>
               <a href="/about" className="text-slate-300 hover:text-white transition">About</a>
+              {/* LEMON SQUEEZY: https://algotoolkit.lemonsqueezy.com/ */}
               <a
-                href="https://algotoolkit.lemonsqueezy.com/"
+                href="https://algotoolkitt.gumroad.com/l/Enterprise"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-emerald-500 hover:bg-emerald-600 px-6 py-2 rounded-lg font-semibold transition"
@@ -533,8 +534,9 @@ export default function LandingPage() {
               <a href="#testimonials" className="block text-slate-300 hover:text-white">Reviews</a>
               <a href="#faq" className="block text-slate-300 hover:text-white">FAQ</a>
               <a href="/about" className="block text-slate-300 hover:text-white">About</a>
+              {/* LEMON SQUEEZY: https://algotoolkit.lemonsqueezy.com/ */}
               <a
-                href="https://algotoolkit.lemonsqueezy.com/"
+                href="https://algotoolkitt.gumroad.com/l/Enterprise"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block bg-emerald-500 hover:bg-emerald-600 px-6 py-2 rounded-lg font-semibold text-center"
@@ -575,9 +577,12 @@ export default function LandingPage() {
             </p>
 
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
+{/* LEMON SQUEEZY LINK: https://algotoolkit.lemonsqueezy.com/buy/117b90e2-5006-49da-a3b1-61ec13858c73?embed=1 */}
               <a
-                href="https://algotoolkit.lemonsqueezy.com/buy/117b90e2-5006-49da-a3b1-61ec13858c73?embed=1"
-                className="lemonsqueezy-button bg-gradient-to-r from-emerald-500 to-cyan-500 hover:from-emerald-600 hover:to-cyan-600 px-8 py-4 rounded-xl font-semibold text-lg flex items-center space-x-2 transition transform hover:scale-105"
+                href="https://algotoolkitt.gumroad.com/l/Enterprise"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-gradient-to-r from-emerald-500 to-cyan-500 hover:from-emerald-600 hover:to-cyan-600 px-8 py-4 rounded-xl font-semibold text-lg flex items-center space-x-2 transition transform hover:scale-105"
               >
                 <span>Get the Toolkit</span>
                 <ArrowRight className="w-5 h-5" />
@@ -1263,9 +1268,12 @@ export default function LandingPage() {
                 <p className="text-sm text-slate-500 mb-4">
                   *Based on backtested returns. Past performance ≠ future results.
                 </p>
+                {/* LEMON SQUEEZY: https://algotoolkit.lemonsqueezy.com/buy/117b90e2-5006-49da-a3b1-61ec13858c73?embed=1 */}
                 <a
-                  href="https://algotoolkit.lemonsqueezy.com/buy/117b90e2-5006-49da-a3b1-61ec13858c73?embed=1"
-                  className="lemonsqueezy-button inline-flex items-center space-x-2 bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-600 hover:to-orange-600 px-8 py-4 rounded-xl font-semibold text-lg transition transform hover:scale-105"
+                  href="https://algotoolkitt.gumroad.com/l/Enterprise"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center space-x-2 bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-600 hover:to-orange-600 px-8 py-4 rounded-xl font-semibold text-lg transition transform hover:scale-105"
                 >
                   <span>Get Enterprise Now</span>
                   <ArrowRight className="w-5 h-5" />
@@ -1471,7 +1479,9 @@ export default function LandingPage() {
 
                 <a
                   href={product.link}
-                  className={`lemonsqueezy-button block w-full py-3 rounded-xl font-semibold text-center transition ${
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={`block w-full py-3 rounded-xl font-semibold text-center transition ${
                     product.popular
                       ? "bg-gradient-to-r from-emerald-500 to-cyan-500 hover:from-emerald-600 hover:to-cyan-600 text-white"
                       : product.name === "Enterprise"
@@ -1672,9 +1682,12 @@ export default function LandingPage() {
               <span className="text-amber-400 font-semibold"> Enterprise users report ROI within the first month.</span>
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+{/* LEMON SQUEEZY: https://algotoolkit.lemonsqueezy.com/buy/117b90e2-5006-49da-a3b1-61ec13858c73?embed=1 */}
               <a
-                href="https://algotoolkit.lemonsqueezy.com/buy/117b90e2-5006-49da-a3b1-61ec13858c73?embed=1"
-                className="lemonsqueezy-button inline-flex items-center space-x-2 bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-600 hover:to-orange-600 px-8 py-4 rounded-xl font-semibold text-lg transition transform hover:scale-105"
+                href="https://algotoolkitt.gumroad.com/l/Enterprise"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center space-x-2 bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-600 hover:to-orange-600 px-8 py-4 rounded-xl font-semibold text-lg transition transform hover:scale-105"
               >
                 <span>🚀 Get Enterprise - $749</span>
                 <ArrowRight className="w-5 h-5" />
@@ -1722,7 +1735,8 @@ export default function LandingPage() {
                   </a>
                 </li>
                 <li>
-                  <a href="https://algotoolkit.lemonsqueezy.com/" target="_blank" rel="noopener noreferrer" className="hover:text-emerald-400 transition">
+                  {/* LEMON SQUEEZY: https://algotoolkit.lemonsqueezy.com/ */}
+                  <a href="https://algotoolkitt.gumroad.com/" target="_blank" rel="noopener noreferrer" className="hover:text-emerald-400 transition">
                     🛒 Store
                   </a>
                 </li>
