@@ -500,7 +500,6 @@ export default function LandingPage() {
               <a href="#testimonials" className="text-slate-300 hover:text-white transition">Reviews</a>
               <a href="#faq" className="text-slate-300 hover:text-white transition">FAQ</a>
               <a href="/about" className="text-slate-300 hover:text-white transition">About</a>
-              {/* LEMON SQUEEZY: https://algotoolkit.lemonsqueezy.com/ */}
               <a
                 href="https://algotoolkitt.gumroad.com/l/Enterprise"
                 className="bg-emerald-500 hover:bg-emerald-600 px-6 py-2 rounded-lg font-semibold transition"
@@ -532,7 +531,6 @@ export default function LandingPage() {
               <a href="#testimonials" className="block text-slate-300 hover:text-white">Reviews</a>
               <a href="#faq" className="block text-slate-300 hover:text-white">FAQ</a>
               <a href="/about" className="block text-slate-300 hover:text-white">About</a>
-              {/* LEMON SQUEEZY: https://algotoolkit.lemonsqueezy.com/ */}
               <a
                 href="https://algotoolkitt.gumroad.com/l/Enterprise"
                 className="block bg-emerald-500 hover:bg-emerald-600 px-6 py-2 rounded-lg font-semibold text-center"
