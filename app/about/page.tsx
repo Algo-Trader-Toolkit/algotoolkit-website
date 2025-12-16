@@ -31,9 +31,7 @@ export default function AboutPage() {
                 ← Back to Home
               </Link>
               <a
-                href="https://algotoolkit.lemonsqueezy.com/"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="https://algotoolkitt.gumroad.com/l/Enterprise"
                 className="bg-gradient-to-r from-emerald-500 to-cyan-500 hover:from-emerald-600 hover:to-cyan-600 px-4 py-2 rounded-lg font-semibold transition"
               >
                 Get Started

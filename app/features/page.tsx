@@ -25,7 +25,7 @@ const tiers = [
     price: 49,
     icon: BarChart3,
     color: "emerald",
-    link: "https://algotoolkit.lemonsqueezy.com/buy/54885c5f-fcb7-4cd3-8287-0692f02dfe1f?embed=1",
+    link: "https://algotoolkitt.gumroad.com/l/Standard",
     features: [
       {
         category: "Core Engine",
@@ -61,7 +61,7 @@ const tiers = [
     price: 149,
     icon: Zap,
     color: "blue",
-    link: "https://algotoolkit.lemonsqueezy.com/buy/893767c5-2359-4cd2-834a-1f3cb1edc441?embed=1",
+    link: "https://algotoolkitt.gumroad.com/l/Pro",
     includes: "Standard",
     features: [
       {
@@ -89,7 +89,7 @@ const tiers = [
     price: 349,
     icon: Brain,
     color: "purple",
-    link: "https://algotoolkit.lemonsqueezy.com/buy/4f520aef-c625-424d-bc9b-b9be66d4232b?embed=1",
+    link: "https://algotoolkitt.gumroad.com/l/Ultimate",
     includes: "Pro",
     features: [
       {
@@ -124,7 +124,7 @@ const tiers = [
     price: 749,
     icon: Rocket,
     color: "amber",
-    link: "https://algotoolkit.lemonsqueezy.com/buy/117b90e2-5006-49da-a3b1-61ec13858c73?embed=1",
+    link: "https://algotoolkitt.gumroad.com/l/Enterprise",
     includes: "Ultimate",
     features: [
       {
@@ -202,9 +202,7 @@ export default function FeaturesPage() {
                 ← Back to Home
               </Link>
               <a
-                href="https://algotoolkit.lemonsqueezy.com/"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="https://algotoolkitt.gumroad.com/l/Enterprise"
                 className="bg-gradient-to-r from-emerald-500 to-cyan-500 hover:from-emerald-600 hover:to-cyan-600 px-4 py-2 rounded-lg font-semibold transition"
               >
                 Get Started
@@ -315,7 +313,7 @@ export default function FeaturesPage() {
                     <div className="mt-6 pt-4 border-t border-slate-700/50">
                       <a
                         href={tier.link}
-                        className={`lemonsqueezy-button inline-flex items-center space-x-2 bg-gradient-to-r ${
+                        className={`inline-flex items-center space-x-2 bg-gradient-to-r ${
                           tier.color === "amber"
                             ? "from-amber-500 to-orange-500 hover:from-amber-600 hover:to-orange-600"
                             : "from-emerald-500 to-cyan-500 hover:from-emerald-600 hover:to-cyan-600"
