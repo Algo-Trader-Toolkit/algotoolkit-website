@@ -45,10 +45,9 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
-        {/* Lemon Squeezy Checkout Script */}
-        <Script 
-          src="https://assets.lemonsqueezy.com/lemon.js" 
-          strategy="beforeInteractive"
+        <Script
+          src="https://gumroad.com/js/gumroad.js"
+          strategy="afterInteractive"
         />
       </body>
     </html>
