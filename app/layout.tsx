@@ -16,6 +16,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Algo Trader Toolkit - Professional Trading Bot Framework",
   description: "Build your own trading bot with pre-built strategies, pattern recognition, and live trading engine. Go live in hours, not months.",
+  verification: {
+    google: "qIqD5yoDOcFE6-vb_OuBmjRbdwLnfV9xCwwf4JMvaA8",
+  },
 };
 
 export default function RootLayout({
