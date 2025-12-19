@@ -89,10 +89,7 @@ export default function RootLayout({
             document.addEventListener('click', function(e) {
               var target = e.target.closest('a');
               if (target && target.href && target.href.includes('gumroad.com')) {
-                console.log("🔍 Gumroad Link Clicked:", target.href);
                 var text = target.innerText || target.textContent;
-                console.log("📝 Button Text:", text);
-                
                 var validButtons = [
                   "Get the Toolkit",
                   "Get Standard",
@@ -106,15 +103,10 @@ export default function RootLayout({
                   return text.includes(btnText);
                 });
 
-                console.log("✅ Is Valid Conversion Target?", isValid);
-
                 if (isValid) {
-                  console.log("🚀 Firing Google Ads Conversion Event!");
                   gtag('event', 'conversion', {
                     'send_to': 'AW-17804660508/GdQmCMOAkNQbEJye9qlC'
                   });
-                } else {
-                  console.log("⚠️ Click ignored: Button text did not match target list.");
                 }
               }
             });
