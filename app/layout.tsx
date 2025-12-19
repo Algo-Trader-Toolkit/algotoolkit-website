@@ -84,6 +84,40 @@ export default function RootLayout({
             gtag('js', new Date());
             gtag('config', 'G-XGFEVMT7PL');
             gtag('config', 'AW-17804660508');
+            
+            // Track Gumroad button clicks
+            document.addEventListener('click', function(e) {
+              var target = e.target.closest('a');
+              if (target && target.href && target.href.includes('gumroad.com')) {
+                console.log("🔍 Gumroad Link Clicked:", target.href);
+                var text = target.innerText || target.textContent;
+                console.log("📝 Button Text:", text);
+                
+                var validButtons = [
+                  "Get the Toolkit",
+                  "Get Standard",
+                  "Get Pro",
+                  "Get Ultimate",
+                  "Get Enterprise"
+                ];
+                
+                // Check if the button text contains one of our valid phrases
+                var isValid = validButtons.some(function(btnText) {
+                  return text.includes(btnText);
+                });
+
+                console.log("✅ Is Valid Conversion Target?", isValid);
+
+                if (isValid) {
+                  console.log("🚀 Firing Google Ads Conversion Event!");
+                  gtag('event', 'conversion', {
+                    'send_to': 'AW-17804660508/GdQmCMOAkNQbEJye9qlC'
+                  });
+                } else {
+                  console.log("⚠️ Click ignored: Button text did not match target list.");
+                }
+              }
+            });
           `}
         </Script>
       </head>
